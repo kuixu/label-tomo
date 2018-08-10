@@ -7,12 +7,12 @@
 #
 #-------------------------------------------------------------------------------
 
-import mrcfile,sys
+import mrcfile,sys,os
 import numpy as np
 from skimage import io
 import argparse
 
-arser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser()
 parser.add_argument('--mrc', required=True, help='mrc file path')
 parser.add_argument('--dir', default="001", help='Images/001')
 parser.add_argument('--i', default=80,type=int, help='start index')
