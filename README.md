@@ -4,7 +4,7 @@ Label-Tomo
 Code for labeling tomo particle center in images  and plotting figures.
 
 **Screenshot:**
-![Label Tool](./screenshot.png)
+<img src="./screenshot.png"/>
 
 Data Organization
 -----------------
