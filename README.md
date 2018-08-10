@@ -44,5 +44,5 @@ $ python main.py
 
 ### 3.Plotting
 ``` python
-$ python plot.py 001
+$ python plot.py --dir 001
 ```
