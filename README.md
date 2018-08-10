@@ -29,11 +29,20 @@ Environment
 Run
 -------
 ### 1.Extracting Imge plane from \*.mrc file into Images\/001 folder
-$ python extractimg.py xxx.mrc 001
+```python
+$ python extractimg.py --mrc xxx.mrc
+# Specific a folder
+$ python extractimg.py --mrc xxx.mrc --dir 001
+# Specific a region on Z axes
+$ python extractimg.py --mrc xxx.mrc --i 80 --j 140
+```
 
 ### 2. Label particles
+```python
 $ python main.py
+```
 
 ### 3.Plotting
+``` python
 $ python plot.py 001
-
+```
