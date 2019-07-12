@@ -28,9 +28,15 @@ center_box=np.array(xyz)
 x=center_box[:,0] * scale
 y=center_box[:,2] * scale
 
+print("point num:", len(x))
+name ="plot-"+dirname
+csv = np.vstack((x,y)).T;
+np.savetxt(name+".cvs", csv,delimiter=',')
+
+
 ylim = 200 * scale
 #print(xyz)
-name ="11-"+dirname
+
 fig, ax = plt.subplots(figsize=(10,7))
 ax.plot(x, y, '.')
 #ax.set_title('NMS, p<0.3, iou<0.7, num:'+str(len(center_box)))
