@@ -1,7 +1,7 @@
 Label-Tomo
 ===============
 
-Code for labeling tomo particle center in images  and plotting figures.
+Code for labeling tomo particle center in images and plotting figures.
 
 **Screenshot:**
 <img src="./screenshot.png"/>
